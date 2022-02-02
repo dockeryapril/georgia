@@ -18,3 +18,11 @@ document.addEventListener('shopify:block:deselect', function(event) {
   const parentSlideshowComponent = event.target.closest('slideshow-component');
   if (parentSlideshowComponent.autoplayButtonIsSetToPlay) parentSlideshowComponent.play();
 });
+
+function currencyFormSubmit(event) {
+  event.target.form.submit();
+}
+
+document.querySelectorAll('.shopify-currency-form select').forEach(function(element) {
+  element.addEventListener('change', currencyFormSubmit);
+});
