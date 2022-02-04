@@ -11,10 +11,19 @@
               "color_scheme": "background-1",
               "link": ""
             }
+          },
+          "9b2e7d18-992e-486b-90d4-79687ff98d41": {
+            "type": "announcement",
+            "settings": {
+              "text": "Type another announcement",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "9b2e7d18-992e-486b-90d4-79687ff98d41"
         ],
         "settings": {
         }
