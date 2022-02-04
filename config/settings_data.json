@@ -7,7 +7,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Announcement",
+              "text": "Type your announcement here",
               "color_scheme": "background-1",
               "link": ""
             }
